@@ -13,7 +13,7 @@ public class ServidorTexto {
         String mensajeCliente = in.readLine();
         System.out.println("Cliente dice: " + mensajeCliente);
         out.println("Hola, ¿qué tal?");
-        
+
         in.close();
         out.close();
         clientSocket.close();

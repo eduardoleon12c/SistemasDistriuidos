@@ -38,7 +38,7 @@ rand_prog_1(char *host, long a, int b)
 		printf("%d : %.0f\n", i, *result_2);
 	}
 		if (result_2 == (double *) NULL) {
-			clnt_perror (clnt, "call failed");
+			clnt_perror (clnt, "call failed tiste");
 		}
 	
 

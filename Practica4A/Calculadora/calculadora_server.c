@@ -33,7 +33,7 @@ double *
 multiplicacion_1_svc(entradas *argp, struct svc_req *rqstp)
 {
 	static double  result;
-	printf("El procedimiento Multiplicacion ha sido invocado remotamente\n");
+	printf("El procedimiento Multiplicacion ha sido invocado remotamente resolviendo...\n");
 	result=argp->x*argp->y;
 	printf(" Se realizo: %.2f x %.2f = %.2f\n\n ",argp->x, argp->y, result);
 
